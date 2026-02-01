@@ -2,8 +2,8 @@ import streamlit as st
 
 # ---------- Page config ----------
 st.set_page_config(
-    page_title="Spotify Study Recommender",
-    page_icon="🎧",
+    page_title="Spotify Study Playlist Generator",
+    page_icon="https://cdn-icons-png.flaticon.com/512/597/597269.png",
     layout="centered"
 )
 
