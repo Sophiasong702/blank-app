@@ -24,18 +24,6 @@ subject = st.text_input(
     placeholder="e.g. Linear Algebra, Tamil grammar, History"
 )
 
-focus_level = st.slider(
-    "How focused do you want to be?",
-    min_value=1,
-    max_value=10,
-    value=7
-)
-
-mood = st.selectbox(
-    "Preferred mood",
-    ["Neutral", "Calm", "Upbeat", "Dark", "Ambient"]
-)
-
 energy = st.selectbox(
     "Energy level",
     ["Low", "Medium", "High"]
